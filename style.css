@@ -1,0 +1,63 @@
+header h3 {
+  margin: 0;
+  height: 5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.jumbotron {
+  background-color: rgba(90, 52, 8, 0.63);
+  text-align: center;
+  color: white;
+}
+
+#leftmenu {
+  background: rgb(243, 151, 30);
+}
+
+.topmenu {
+  background: rgba(151, 77, 68, 0.5);
+  text-align: center;
+}
+
+.contenido {
+  background: whitesmoke;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#fotoazul {
+  background: rgb(79, 178, 243);
+  text-align: center;
+}
+
+#fotosalmon {
+  background: rgba(240, 99, 84, 0.658);
+  text-align: center;
+}
+
+@media (max-width: 575px) {
+  .contenido{
+    height: 11vh;
+  }
+}
+@media (min-width: 576px) {
+  .contenido {
+    height: 13vh;
+  }
+}
+
+@media (min-width: 768px) {
+  .contenido {
+    height: 17vh;
+  }
+}
+
+@media (min-width: 992px){
+  .contenido {
+    height: 35vh;
+  }
+}
